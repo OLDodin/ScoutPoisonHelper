@@ -27,8 +27,6 @@
 		<Item href="ScoutPoisonHelper.lua"/>
 		
 	</ScriptFileRefs>
-	<texts href="RelatedTexts.(UIRelatedTexts).xdb#xpointer(/UIRelatedTexts)" />
-  <textures href="Widgets/Textures/Textures.xdb#xpointer(/UIRelatedTextures)"/>
   <visObjects href=""/>
  
 <addon_name>ScoutPoisonHelper</addon_name>
