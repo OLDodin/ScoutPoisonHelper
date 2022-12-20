@@ -16,7 +16,7 @@ local function GetPoisonBuffInfo(aBuffID)
 	end
 	local buffInfo = aBuffID and object.GetBuffInfo(aBuffID)
 	if buffInfo and buffInfo.isStackable and buffInfo.stackLimit == 12 and buffInfo.name then
-		local buffName = toString(buffInfo.name)
+		local buffName = userMods.FromWString(buffInfo.name)
 		if buffName == m_poisonBuffTargetStr then
 			return buffInfo
 		end
@@ -24,7 +24,7 @@ local function GetPoisonBuffInfo(aBuffID)
 end
 
 function ActionStartCast(aParams)
-	local actionName = toString(aParams.name)
+	local actionName = userMods.FromWString(aParams.name)
 	if aParams.name and aParams.progress < aParams.duration 
 	and (actionName == m_poisonActionStr1 or actionName == m_poisonActionStr2)
 	then

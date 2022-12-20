@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <WidgetForm>
-	<Name>FPSIncrease</Name>
+	<Name>ScoutPoisonHelper</Name>
 	<Priority>4550</Priority>
 	<BackLayer href="" />
 	<FrontLayer href="" />

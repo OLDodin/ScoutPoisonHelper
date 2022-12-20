@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<WidgetPanel>
-	<Name>Timer</Name>
-	<Visible>false</Visible>
-	<Enabled>true</Enabled>
-	<TransparentInput>true</TransparentInput>
-</WidgetPanel>
